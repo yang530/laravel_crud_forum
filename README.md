@@ -1,6 +1,6 @@
 # Laravel CRUD Forum
 
-A simple forum application built with Laravel to demonstrate CRUD (Create, Read, Update, Delete) operations. This project provides a basic framework for managing forum posts, including user authentication, post creation, editing, and deletion. User can create post, edit and delete posts it created and leave comments for any posts.  
+This is a simple forum application built with Laravel to demonstrate CRUD (Create, Read, Update, Delete) operations. This project provides a basic framework for managing forum posts, including user authentication, post creation, editing, and deletion. User can create post, edit and delete posts it created and leave comments for any posts.  
 
 ## Features
 
