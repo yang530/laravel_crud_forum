@@ -15,7 +15,7 @@ This is a simple forum application built with Laravel to demonstrate CRUD (Creat
 - PHP >= 7.4
 - Composer
 - Laravel >= 8.x
-- MySQL or any other supported database
+- MySQL database
 
 ## Installation
 
