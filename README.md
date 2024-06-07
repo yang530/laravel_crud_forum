@@ -67,7 +67,7 @@ This is a simple forum application built with Laravel to demonstrate CRUD (Creat
 - **View** a list of all forum posts.
 - **Edit** a forum post you have created.
 - **Delete** a forum post you have created.
-- **NOTE: email verification featured is not implemented. Therefore, there is not way to recover password of any user account.**
+- **NOTE: Email verification featured is not implemented. Therefore, there is not way to recover password of any user account.**
 
 ## License
 
