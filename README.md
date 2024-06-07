@@ -13,7 +13,7 @@ This is a simple forum application built with Laravel to demonstrate CRUD (Creat
 ## Requirements
 
 - PHP >= 7.4
-- Composer
+- Composer, the php package manager
 - Laravel >= 8.x
 - MySQL database
 
