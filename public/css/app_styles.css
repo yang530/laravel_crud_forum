@@ -1,0 +1,134 @@
+/* styles.css */
+
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+h1, h2 {
+    color: #333;
+    text-align: center;
+}
+
+h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-top: 20px;
+    color:  #ff2d20;
+}
+
+h2 {
+    font-size: 1.75rem;
+    margin-top: 10px;
+}
+
+/* Form styles */
+form.app_form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    width: 90%;
+    max-width: 500px;
+    margin: 20px auto;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+form.app_form input[type="text"],
+form.app_form input[type="password"],
+form.app_form input[type="submit"],
+form.app_form textarea {
+    width: 90%;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+form.app_form label{
+    width: 90%;
+    text-align: left;
+    box-sizing: border-box;
+}
+
+form.app_form input[type="submit"] {
+    background-color: #ff2d20;
+    font-weight: bold;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+form.app_form input[type="submit"]:hover {
+    background-color: #cc0000;
+}
+
+form.app_form textarea {
+    resize: vertical;
+    height: 100px;
+}
+
+form.app_form p {
+    margin-top: 0;
+}
+
+/* Link styles */
+a {
+    color: #ff2d20;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+a:hover {
+    color: #cc0000;
+    text-decoration: underline;
+}
+
+/* Post styles */
+#post_content, #post_comments, #post_display {
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    width: 90%;
+    max-width: 800px;
+    margin: 20px auto;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#comment_display {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    body {
+        padding: 10px;
+    }
+
+    form.app_form, #post_content, #post_comments, #post_display {
+        width: 100%;
+    }
+
+    h1 {
+        font-size: 2rem;
+    }
+
+    h2 {
+        font-size: 1.5rem;
+    }
+}
+
