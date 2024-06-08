@@ -8,7 +8,7 @@ This is a simple forum application built with Laravel to demonstrate CRUD (Creat
 - Create, read, update, and delete forum posts
 - Leaving comments for posts
 - Basic user interface for interacting with the forum
-- Validation and error handling
+- User Input validation and error handling
 
 ## Requirements
 
